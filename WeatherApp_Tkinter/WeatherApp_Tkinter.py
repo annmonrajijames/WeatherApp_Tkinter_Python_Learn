@@ -1,4 +1,6 @@
 from tkinter import *
+import requests
+import json
 
 root = Tk()
 root.title('WeatherApp_Tkinter')
