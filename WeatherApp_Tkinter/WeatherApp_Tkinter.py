@@ -13,7 +13,6 @@ try:
     api_request = requests.get("https://www.airnowapi.org/aq/observation/zipCode/historical/?format=application/json&zipCode=89129&date=2024-04-10T00-0000&distance=5&API_KEY=80599F15-A413-4492-9620-E4ED538110B3")
     api = json.loads(api_request.content)
     print("from api=",api)
-    print("from api=",api[0]['Category'])
 except Exception as e:
     api = "Error..."
 
