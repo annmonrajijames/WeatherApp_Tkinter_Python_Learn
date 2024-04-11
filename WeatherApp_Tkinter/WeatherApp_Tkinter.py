@@ -7,5 +7,6 @@ root = Tk()
 root.title('WeatherApp_Tkinter')
 root.geometry("400x400")
 
+api_request = requests.get("")
 
 root.mainloop()
